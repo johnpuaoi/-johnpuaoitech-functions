@@ -36,10 +36,3 @@ export const isEmptyObject = function (obj: object): Boolean {
     return true;
   }
 };
-
-const emptyObject = {};
-const notEmptyObject = {
-  test: 'This is not empty',
-};
-console.log('The Empty object is empty: ', isEmptyObject(emptyObject));
-console.log('The not object is empty: ', isEmptyObject(notEmptyObject));
