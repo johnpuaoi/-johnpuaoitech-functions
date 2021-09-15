@@ -28,3 +28,18 @@ export const formatDate = function (
     return `${month}/${day}/${year}`;
   }
 };
+
+export const isEmptyObject = function (obj: object): Boolean {
+  if (Object.entries(obj).length >= 1) {
+    return false;
+  } else {
+    return true;
+  }
+};
+
+const emptyObject = {};
+const notEmptyObject = {
+  test: 'This is not empty',
+};
+console.log('The Empty object is empty: ', isEmptyObject(emptyObject));
+console.log('The not object is empty: ', isEmptyObject(notEmptyObject));
