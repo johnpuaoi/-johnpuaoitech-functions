@@ -1,0 +1,23 @@
+{
+  "name": "reusablefunctions",
+  "version": "1.0.0",
+  "description": "A set of resuable functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpuaoi/reusablefunctions.git"
+  },
+  "author": "John Puaoi <webdeveloper@johnpuaoi.tech> (johnpuaoi.tech)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnpuaoi/reusablefunctions/issues"
+  },
+  "homepage": "https://github.com/johnpuaoi/reusablefunctions#readme",
+  "private": false,
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -32,10 +32,3 @@ var isEmptyObject = function (obj) {
     }
 };
 exports.isEmptyObject = isEmptyObject;
-var emptyObject = {};
-var notEmptyObject = {
-    test: 'This is not empty',
-};
-console.log('The Empty object is empty: ', (0, exports.isEmptyObject)(emptyObject));
-console.log('The not object is empty: ', (0, exports.isEmptyObject)(notEmptyObject));
-//# sourceMappingURL=functions.js.map
