@@ -1,5 +1,5 @@
 {
-  "name": "@johnpuaoitech/functions",
+  "name": "johnpuaoitech-functions",
   "version": "1.0.0",
   "description": "A set of resuable functions.",
   "main": "index.js",
