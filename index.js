@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isEmptyObject = exports.formatDate = void 0;
 // Use for firebase timestamps, pass in time bool to get time back in result
+/** This function is for use with firebase timestamps, pass in the timestamp and then if time is desired pass the truthy returnTime parameter. */
 var formatDate = function (timestamp, returnTime) {
     // Get date from timestamp
     var date = new Date(timestamp * 1000);

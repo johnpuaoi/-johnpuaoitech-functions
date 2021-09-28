@@ -1,4 +1,5 @@
 // Use for firebase timestamps, pass in time bool to get time back in result
+/** This function is for use with firebase timestamps, pass in the timestamp and then if time is desired pass the truthy returnTime parameter. */
 export const formatDate = function (
   timestamp: number,
   returnTime?: boolean
