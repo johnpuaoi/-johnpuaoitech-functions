@@ -37,3 +37,7 @@ export const isEmptyObject = function (obj: object): Boolean {
     return true;
   }
 };
+
+export const copyTextToClipboard = async (textToCopy: string) => {
+  await navigator.clipboard.writeText(textToCopy);
+};
