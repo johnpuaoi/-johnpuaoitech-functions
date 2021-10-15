@@ -30,6 +30,11 @@ export const formatDate = function (
   }
 };
 
+export const formatAsDate = function (timestamp: number): Date {
+  const date = new Date(timestamp * 1000);
+  return date;
+};
+
 export const isEmptyObject = function (obj: object): Boolean {
   if (Object.entries(obj).length >= 1) {
     return false;
