@@ -1,6 +1,6 @@
 {
   "name": "johnpuaoitech-functions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A set of resuable functions.",
   "main": "index.js",
   "scripts": {
